@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
 
     <title>
-      Property &mdash; Free Bootstrap 5 Website Template by Untree.co
+      TORA-PROPERTY
     </title>
   </head>
   <body>

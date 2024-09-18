@@ -22,7 +22,15 @@ Route::get('/', function () {
     return view('index');
 });
 
-//
+// Properties
 Route::get('/property', function () {
     return view('properties');
+});
+Route::get('/property-1', function () {
+    return view('property-single');
+});
+
+// service
+Route::get('/services', function () {
+    return view('services');
 });

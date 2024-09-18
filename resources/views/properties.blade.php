@@ -60,7 +60,7 @@
               data-aos-delay="200"
             >
               <ol class="breadcrumb text-center justify-content-center">
-                <li class="breadcrumb-item"><a href="{{ asset('index.html') }}">Home</a></li>
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
                 <li
                   class="breadcrumb-item active text-white-50"
                   aria-current="page"
@@ -88,7 +88,7 @@
             <div class="property-slider-wrap">
               <div class="property-slider">
                 <div class="property-item">
-                  <a href="{{ asset('property-single.html') }}" class="img">
+                  <a href="/property-1" class="img">
                     <img src="{{ asset('images/img_1.jpg') }}" alt="Image" class="img-fluid" />
                   </a>
 
@@ -112,7 +112,7 @@
                       </div>
 
                       <a
-                        href="{{ asset('property-single.html') }}"
+                        href="/property-1"
                         class="btn btn-primary py-2 px-3"
                         >See details</a
                       >
@@ -122,7 +122,7 @@
                 <!-- .item -->
 
                 <div class="property-item">
-                  <a href="{{ asset('property-single.html') }}" class="img">
+                  <a href="/property-1" class="img">
                     <img src="{{ asset('images/img_2.jpg') }}" alt="Image" class="img-fluid" />
                   </a>
 
@@ -146,7 +146,7 @@
                       </div>
 
                       <a
-                        href="{{ asset('property-single.html') }}"
+                        href="/property-1"
                         class="btn btn-primary py-2 px-3"
                         >See details</a
                       >
@@ -156,7 +156,7 @@
                 <!-- .item -->
 
                 <div class="property-item">
-                  <a href="{{ asset('property-single.html') }}" class="img">
+                  <a href="/property-1" class="img">
                     <img src="{{ asset('images/img_3.jpg') }}" alt="Image" class="img-fluid" />
                   </a>
 
@@ -180,7 +180,7 @@
                       </div>
 
                       <a
-                        href="{{ asset('property-single.html') }}"
+                        href="/property-1"
                         class="btn btn-primary py-2 px-3"
                         >See details</a
                       >
@@ -190,7 +190,7 @@
                 <!-- .item -->
 
                 <div class="property-item">
-                  <a href="{{ asset('property-single.html') }}" class="img">
+                  <a href="/property-1" class="img">
                     <img src="{{ asset('images/img_4.jpg') }}" alt="Image" class="img-fluid" />
                   </a>
 
@@ -214,7 +214,7 @@
                       </div>
 
                       <a
-                        href="{{ asset('property-single.html') }}"
+                        href="/property-1"
                         class="btn btn-primary py-2 px-3"
                         >See details</a
                       >
@@ -224,7 +224,7 @@
                 <!-- .item -->
 
                 <div class="property-item">
-                  <a href="{{ asset('property-single.html') }}" class="img">
+                  <a href="/property-1" class="img">
                     <img src="{{ asset('images/img_5.jpg') }}" alt="Image" class="img-fluid" />
                   </a>
 
@@ -248,7 +248,7 @@
                       </div>
 
                       <a
-                        href="{{ asset('property-single.html') }}"
+                        href="/property-1"
                         class="btn btn-primary py-2 px-3"
                         >See details</a
                       >
@@ -258,7 +258,7 @@
                 <!-- .item -->
 
                 <div class="property-item">
-                  <a href="{{ asset('property-single.html') }}" class="img">
+                  <a href="/property-1" class="img">
                     <img src="{{ asset('images/img_6.jpg') }}" alt="Image" class="img-fluid" />
                   </a>
 
@@ -282,7 +282,7 @@
                       </div>
 
                       <a
-                        href="{{ asset('property-single.html') }}"
+                        href="/property-1"
                         class="btn btn-primary py-2 px-3"
                         >See details</a
                       >
@@ -292,7 +292,7 @@
                 <!-- .item -->
 
                 <div class="property-item">
-                  <a href="{{ asset('property-single.html') }}" class="img">
+                  <a href="/property-1" class="img">
                     <img src="{{ asset('images/img_7.jpg') }}" alt="Image" class="img-fluid" />
                   </a>
 
@@ -316,7 +316,7 @@
                       </div>
 
                       <a
-                        href="{{ asset('property-single.html') }}"
+                        href="/property-1"
                         class="btn btn-primary py-2 px-3"
                         >See details</a
                       >
@@ -326,7 +326,7 @@
                 <!-- .item -->
 
                 <div class="property-item">
-                  <a href="{{ asset('property-single.html') }}" class="img">
+                  <a href="/property-1" class="img">
                     <img src="{{ asset('images/img_8.jpg') }}" alt="Image" class="img-fluid" />
                   </a>
 
@@ -350,7 +350,7 @@
                       </div>
 
                       <a
-                        href="{{ asset('property-single.html') }}"
+                        href="/property-1"
                         class="btn btn-primary py-2 px-3"
                         >See details</a
                       >
@@ -360,7 +360,7 @@
                 <!-- .item -->
 
                 <div class="property-item">
-                  <a href="{{ asset('property-single.html') }}" class="img">
+                  <a href="/property-1" class="img">
                     <img src="{{ asset('images/img_1.jpg') }}" alt="Image" class="img-fluid" />
                   </a>
 
@@ -384,7 +384,7 @@
                       </div>
 
                       <a
-                        href="{{ asset('property-single.html') }}"
+                        href="/property-1"
                         class="btn btn-primary py-2 px-3"
                         >See details</a
                       >
@@ -420,8 +420,6 @@
         </div>
       </div>
     </div>
-
-    
 
     <div class="section section-properties">
       <div class="container">

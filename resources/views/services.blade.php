@@ -1,16 +1,10 @@
-<!-- /*
-* Template Name: Property
-* Template Author: Untree.co
-* Template URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/ -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Untree.co" />
-    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="shortcut icon" href="{{ asset('favicon.png') }}" />
 
     <meta name="description" content="" />
     <meta name="keywords" content="bootstrap, bootstrap5" />
@@ -22,12 +16,12 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="fonts/icomoon/style.css" />
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+    <link rel="stylesheet" href="{{ asset('fonts/icomoon/style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('fonts/flaticon/font/flaticon.css') }}" />
 
-    <link rel="stylesheet" href="css/tiny-slider.css" />
-    <link rel="stylesheet" href="css/aos.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="{{ asset('css/tiny-slider.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/aos.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
 
     <title>
       Property &mdash; Free Bootstrap 5 Website Template by Untree.co
@@ -47,14 +41,14 @@
       <div class="container">
         <div class="menu-bg-wrap">
           <div class="site-navigation">
-            <a href="index.html" class="logo m-0 float-start">Property</a>
+            <a href="{{ url('/') }}" class="logo m-0 float-start">Property</a>
 
             <ul
               class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end"
             >
-              <li><a href="index.html">Home</a></li>
+              <li><a href="{{ url('/') }}">Home</a></li>
               <li class="has-children">
-                <a href="properties.html">Properties</a>
+                <a href="{{ url('/property') }}">Properties</a>
                 <ul class="dropdown">
                   <li><a href="#">Buy Property</a></li>
                   <li><a href="#">Sell Property</a></li>
@@ -68,9 +62,9 @@
                   </li>
                 </ul>
               </li>
-              <li class="active"><a href="services.html">Services</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li class="active"><a href="{{ url('/services') }}">Services</a></li>
+              <li><a href="{{ url('/about') }}">About</a></li>
+              <li><a href="{{ url('/contact') }}">Contact Us</a></li>
             </ul>
 
             <a
@@ -88,7 +82,7 @@
 
     <div
       class="hero page-inner overlay"
-      style="background-image: url('images/hero_bg_1.jpg')"
+      style="background-image: url('{{ asset('images/hero_bg_1.jpg') }}')"
     >
       <div class="container">
         <div class="row justify-content-center align-items-center">
@@ -101,7 +95,7 @@
               data-aos-delay="200"
             >
               <ol class="breadcrumb text-center justify-content-center">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
                 <li
                   class="breadcrumb-item active text-white-50"
                   aria-current="page"
@@ -244,7 +238,7 @@
             <div class="item">
               <div class="testimonial">
                 <img
-                  src="images/person_1-min.jpg"
+                  src="{{ asset('images/person_1-min.jpg') }}"
                   alt="Image"
                   class="img-fluid rounded-circle w-25 mb-4"
                 />
@@ -271,7 +265,7 @@
             <div class="item">
               <div class="testimonial">
                 <img
-                  src="images/person_2-min.jpg"
+                  src="{{ asset('images/person_2-min.jpg') }}"
                   alt="Image"
                   class="img-fluid rounded-circle w-25 mb-4"
                 />
@@ -298,7 +292,7 @@
             <div class="item">
               <div class="testimonial">
                 <img
-                  src="images/person_3-min.jpg"
+                  src="{{ asset('images/person_3-min.jpg') }}"
                   alt="Image"
                   class="img-fluid rounded-circle w-25 mb-4"
                 />
@@ -325,7 +319,7 @@
             <div class="item">
               <div class="testimonial">
                 <img
-                  src="images/person_4-min.jpg"
+                  src="{{ asset('images/person_4-min.jpg') }}"
                   alt="Image"
                   class="img-fluid rounded-circle w-25 mb-4"
                 />
