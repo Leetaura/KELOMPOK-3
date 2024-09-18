@@ -16,6 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/index', function () {
+
+// index
+Route::get('/', function () {
     return view('index');
+});
+
+//
+Route::get('/property', function () {
+    return view('properties');
 });
