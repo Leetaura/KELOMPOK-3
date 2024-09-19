@@ -150,10 +150,7 @@
               cupiditate, at non esse!
             </p>
             <p class="text-black-50">
-              Enim, nisi labore exercitationem facere cupiditate nobis quod
-              autem veritatis quis minima expedita. Cumque odio illo iusto
-              reiciendis, labore impedit omnis, nihil aut atque, facilis
-              necessitatibus asperiores porro qui nam.
+              epik
             </p>
           </div>
         </div>
