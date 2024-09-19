@@ -173,8 +173,7 @@
               <div class="feature-text">
                 <h3 class="heading">Quality properties</h3>
                 <p class="text-black-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nostrum iste.
+                  hey.
                 </p>
               </div>
             </div>
